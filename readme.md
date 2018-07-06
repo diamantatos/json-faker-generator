@@ -8,8 +8,14 @@ A module that generates fake json with x fields, each having y depth by using fa
 # Example
 
 ``````````
-var json-faker-generator  = require('json-faker-generator');
-console.log(JSON.stringify(json-faker-generator.createJson(2,3)))
+var jsonFakerGenerator  = require('json-faker-generator');
+console.log(JSON.stringify(jsonFakerGenerator(2,3)))
+
+``````````
+# Output
+
+``````````
+{"Ebony":{"Hayden":{"Reyes":{"Nona":"Mario"}}},"Jarred":{"Alexandre":{"Tracey":{"Buddy":"Marcelina"}}}}
 
 ``````````
 
