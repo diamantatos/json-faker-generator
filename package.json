@@ -1,0 +1,19 @@
+{
+  "name": "json-faker-generator",
+  "version": "1.0.0",
+  "description": "a generator for fake json",
+  "main": "json-faker-generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "faker",
+    "generator"
+  ],
+  "author": "Paraskevas Diamantatos",
+  "license": "MIT",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}
